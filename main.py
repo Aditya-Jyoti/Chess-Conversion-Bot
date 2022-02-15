@@ -40,7 +40,7 @@ async def on_ready():
 
     await channel.send(embed= embed)
 
-cogs = ["Converter"]
+cogs = ["Converter", "Linker"]
 for cog in cogs:
     BOT.load_extension(f"cogs.{cog}")
 
